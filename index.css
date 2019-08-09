@@ -4,8 +4,13 @@
 html, body{
     height: 100%;
     width: 100%;
-    background-color: #192a58;
+    background-color: #800020;
     transition:1s;
+}
+ 
+.colochange {
+    background-color: #56015c;
+    transition: 1s all
 }
 
 h1{
@@ -15,7 +20,7 @@ h1{
 .colotwang {
     float: center;
     font-size: 4em;
-    color: rgb(128, 255, 70);
+    color: rgb(255, 196, 70);
     /* animation stuffs */
     animation-name: twang;
     animation-duration: 5s;
@@ -36,16 +41,16 @@ h1{
 @keyframes twang {
     /* color animation for the name */
     0%{
-        color: rgb(0, 228, 76)
+        color: rgb(255, 196, 70)
     }
     33%{
-        color:rgb(4, 207, 173)
+        color:rgb(252, 142, 16)
     }
     67%{
-        color: rgb(16, 184, 250)
+        color: rgb(218, 17, 3)
     }
     100%{
-        color: rgb(45, 25, 226)
+        color: rgb(235, 0, 70)
     }
 }
 
@@ -76,10 +81,6 @@ h1{
     height:7.5%
 }
 
-/* TODO:
-    1. get optimal "terrence amponsah" margin
-    2. and spacing between down arrow and <p> tag text.
-    */
 
 li {
     float: left;
@@ -89,23 +90,33 @@ li {
     margin-bottom: 1%;
     padding: 1%;
     border-radius: 10px;
+    transition: 0s;
 }
 
 .greLis{
-    background-color: rgb(43, 226, 165);
-    transition: 2s
+    background-color: #f87417;
+    transition: 1s
 }
 
 .greLis:hover{
-    background-color: rgb(34, 180, 131);
-    transition:2s
+    background-color: #a74500;
+    transition:1s
 }
 
 
-#languages {
+#languages, #projects {
     font-family:'Titillium Web';
     color: aliceblue;
     text-align:center;
     height: 100%;
     margin-bottom: 10%
 }
+
+/* TODO>>
+    >> change the list colors
+    >> actually complete another project so you can put something on the website.
+    >> finish the rest
+    >> add icons for gitH linkdin and email
+    >> resume upload.
+
+    */
