@@ -4,7 +4,7 @@
 html, body{
     height: 100%;
     width: 100%;
-    background-color: #56d9e0;
+    background-color: #192a58;
     transition:1s;
 }
 
@@ -15,7 +15,7 @@ h1{
 .colotwang {
     float: center;
     font-size: 4em;
-    color: rgb(49, 56, 97);
+    color: rgb(128, 255, 70);
     /* animation stuffs */
     animation-name: twang;
     animation-duration: 5s;
